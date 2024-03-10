@@ -4,13 +4,8 @@ import { useTranslation } from "react-i18next";
 import { setCurrency } from "../../../store/slices/currency-slice"
 
 const LanguageCurrencyChanger = ({ currency }) => {
-  const { i18n } = useTranslation();
   const dispatch = useDispatch();
-  const changeLanguageTrigger = e => {
-    const languageCode = e.target.value;
-    i18n.changeLanguage(languageCode);
-  };
-
+ 
   const setCurrencyTrigger = e => {
     const currencyName = e.target.value;
     dispatch(setCurrency(currencyName));
@@ -20,13 +15,7 @@ const LanguageCurrencyChanger = ({ currency }) => {
     <div className="language-currency-wrap">
       {/* <div className="same-language-currency language-style">
         <span>
-          {i18n.resolvedLanguage === "en"
-            ? "English"
-            : i18n.resolvedLanguage === "fn"
-            ? "French"
-            : i18n.resolvedLanguage === "de"
-            ? "Germany"
-            : ""}{" "}
+         
           <i className="fa fa-angle-down" />
         </span>
         <div className="lang-car-dropdown">
