@@ -15,19 +15,19 @@ const NavMenu = ({ menuWhiteClass, sidebarMenu }) => {
       <nav>
         <ul>
           <li>
-            <Link to={process.env.PUBLIC_URL + "/home-cosmetics"}>
-              {t("home")}
+            <Link to={process.env.PUBLIC_URL + "/home"}>
+              {t("Home")}
             </Link>
             </li>
           <li>
             <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
               {" "}
-              {t("shop")}
+              {t("Shop")}
               </Link>
            </li>
           <li>
             <Link to={process.env.PUBLIC_URL + "/"}>
-              {t("pages")}
+              {t("Pages")}
               {sidebarMenu ? (
                 <span>
                   <i className="fa fa-angle-right"></i>
@@ -39,12 +39,12 @@ const NavMenu = ({ menuWhiteClass, sidebarMenu }) => {
             <ul className="submenu">
               <li>
                 <Link to={process.env.PUBLIC_URL + "/cart"}>
-                  {t("cart")}
+                  {t("Cart")}
                 </Link>
               </li>
               <li>
                 <Link to={process.env.PUBLIC_URL + "/checkout"}>
-                  {t("checkout")}
+                  {t("Checkout")}
                 </Link>
               </li>
               <li>
@@ -61,12 +61,12 @@ const NavMenu = ({ menuWhiteClass, sidebarMenu }) => {
           </li>
           <li>
             <Link to={process.env.PUBLIC_URL + "/about"}>
-              {t("about_us")}
+              {t("About-us")}
             </Link>
           </li>
           <li>
             <Link to={process.env.PUBLIC_URL + "/contact"}>
-              {t("contact_us")}
+              {t("Contact-us")}
             </Link>
           </li>
         </ul>
