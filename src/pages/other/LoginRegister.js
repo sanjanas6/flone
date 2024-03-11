@@ -20,7 +20,7 @@ const LoginRegister = () => {
         <Breadcrumb 
           pages={[
             {label: "Home", path: process.env.PUBLIC_URL + "/" },
-            {label: "Login Register", path: process.env.PUBLIC_URL + pathname }
+            {label: "Login", path: process.env.PUBLIC_URL + pathname }
           ]} 
         />
         <div className="login-register-area pt-100 pb-100">
@@ -28,28 +28,28 @@ const LoginRegister = () => {
             <div className="row">
               <div className="col-lg-7 col-md-12 ms-auto me-auto">
                 <div className="login-register-wrapper">
-                  <Tab.Container defaultActiveKey="login">
+                  {/* <Tab.Container defaultActiveKey="login">
                     <Nav variant="pills" className="login-register-tab-list">
                       <Nav.Item>
                         <Nav.Link eventKey="login">
                           <h4>Login</h4>
                         </Nav.Link>
-                      </Nav.Item>
-                      <Nav.Item>
+                      </Nav.Item> */}
+                      {/* <Nav.Item>
                         <Nav.Link eventKey="register">
                           <h4>Register</h4>
                         </Nav.Link>
-                      </Nav.Item>
-                    </Nav>
-                    <Tab.Content>
-                      <Tab.Pane eventKey="login">
+                      </Nav.Item> */}
+                    {/* </Nav> */}
+                    {/* <Tab.Content>
+                      <Tab.Pane eventKey="login"> */}
                         <div className="login-form-container">
                           <div className="login-register-form">
                             <form>
                               <input
-                                type="text"
-                                name="user-name"
-                                placeholder="Username"
+                                type="number"
+                                name="mobile-number"
+                                placeholder="Mobile Number"
                               />
                               <input
                                 type="password"
@@ -71,8 +71,8 @@ const LoginRegister = () => {
                             </form>
                           </div>
                         </div>
-                      </Tab.Pane>
-                      <Tab.Pane eventKey="register">
+                      {/* </Tab.Pane> */}
+                      {/* <Tab.Pane eventKey="register">
                         <div className="login-form-container">
                           <div className="login-register-form">
                             <form>
@@ -99,9 +99,9 @@ const LoginRegister = () => {
                             </form>
                           </div>
                         </div>
-                      </Tab.Pane>
-                    </Tab.Content>
-                  </Tab.Container>
+                      </Tab.Pane> */}
+                    {/* </Tab.Content>
+                  </Tab.Container> */}
                 </div>
               </div>
             </div>
