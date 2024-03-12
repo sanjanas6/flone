@@ -29,7 +29,7 @@ const Register = () => {
                 title: 'Registration Successful',
                 text: 'User Registered Successfully!',
             });
-            navigate("/")
+            navigate("/login")
         } else {
             // Registration failed
             Swal.fire({
