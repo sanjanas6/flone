@@ -1,10 +1,8 @@
-
 import { Fragment } from "react";
 import PropTypes from "prop-types";
 import { useSelector } from "react-redux";
 import { getProducts } from "../../helpers/product";
 import ProductGridSingleTwo from "../../components/product/ProductGridSingleTwo";
-
 const ProductGridTwo = ({
   spaceBottomClass,
   colorClass,
@@ -16,10 +14,7 @@ const ProductGridTwo = ({
   const { products } = useSelector((state) => state.product);
   const currency = useSelector((state) => state.currency);
   const { cartItems } = useSelector((state) => state.cart);
-  const { wishlistItems } = useSelector((state) => state.wishlist);
-  const { compareItems } = useSelector((state) => state.compare);
   const prods = getProducts(products, category, type, limit);
-  
   return (
     <Fragment>
       {prods?.map((product) => {
@@ -32,16 +27,6 @@ const ProductGridTwo = ({
               currency={currency}
               cartItem={
                 cartItems.find((cartItem) => cartItem.id === product.id)
-              }
-              wishlistItem={
-                wishlistItems.find(
-                  (wishlistItem) => wishlistItem.id === product.id
-                )
-              }
-              compareItem={
-                compareItems.find(
-                  (compareItem) => compareItem.id === product.id
-                )
               }
               titlePriceClass={titlePriceClass}
             />
