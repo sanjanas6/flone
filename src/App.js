@@ -1,7 +1,6 @@
 import { Suspense, lazy } from "react";
 import ScrollToTop from "./helpers/scroll-top";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
 // home pages
 const Home = lazy(() => import("./pages/home/Home"));
 // shop pages
@@ -29,7 +28,6 @@ const LoginRegister = lazy(() => import("./pages/other/LoginRegister"));
 const Cart = lazy(() => import("./pages/other/Cart"));
 const Wishlist = lazy(() => import("./pages/other/Wishlist"));
 const Checkout = lazy(() => import("./pages/other/Checkout"));
-
 const NotFound = lazy(() => import("./pages/other/NotFound"));
 
 const App = () => {
