@@ -33,11 +33,11 @@ const Home = () => {
           featureShapeClass="support-shape-3"
         />
         {/* testimonial */}
-        <TestimonialOne spaceBottomClass="pb-95" />
+        {/* <TestimonialOne spaceBottomClass="pb-95" /> */}
         {/* banner */}
-        <BannerNine spaceBottomClass="pb-70" />
+        {/* <BannerNine spaceBottomClass="pb-70" /> */}
         {/* brand logo slider */}
-        <BrandLogoSliderOne spaceBottomClass="pb-95" />
+        {/* <BrandLogoSliderOne spaceBottomClass="pb-95" /> */}
         </LayoutOne>
     </Fragment>
   );
