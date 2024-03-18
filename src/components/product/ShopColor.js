@@ -17,7 +17,7 @@ const ShopColor = ({ colors, getSortParams }) => {
                     setActiveSort(e);
                   }}
                 >
-                  <span className="checkmark" /> All Colors{" "}
+                  {/* <span className="checkmark" /> All Colors{" "} */}
                 </button>
               </div>
             </li>

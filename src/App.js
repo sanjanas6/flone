@@ -46,81 +46,81 @@ const App = () => {
           >
             <Routes>
               <Route
-                path={process.env.PUBLIC_URL + "/"}
+                path={ "/"}
                 element={<Home/>}
               />
 
               {/* Homepages */}
               <Route
-                path={process.env.PUBLIC_URL + "/home"}
+                path={"/home"}
                 element={<Home/>}
               />
               
               {/* Shop pages */}
               <Route
-                path={process.env.PUBLIC_URL + "/shop-grid-standard"}
+                path={ "/shop-grid-standard"}
                 element={<ShopGridStandard/>}
               />
              
               {/* Shop product pages */}
               <Route
-                path={process.env.PUBLIC_URL + "/product/:id"}
+                path={ "/product/:id"}
                 element={<Product />}
               />
               <Route
-                path={process.env.PUBLIC_URL + "/product-tab-left/:id"}
+                path={ "/product-tab-left/:id"}
                 element={<ProductTabLeft/>}
               />
               <Route
-                path={process.env.PUBLIC_URL + "/product-tab-right/:id"}
+                path={ "/product-tab-right/:id"}
                 element={<ProductTabRight/>}
               />
               <Route
-                path={process.env.PUBLIC_URL + "/product-sticky/:id"}
+                path={ "/product-sticky/:id"}
                 element={<ProductSticky/>}
               />
               <Route
-                path={process.env.PUBLIC_URL + "/product-slider/:id"}
+                path={ "/product-slider/:id"}
                 element={<ProductSlider/>}
               />
               <Route
-                path={process.env.PUBLIC_URL + "/product-fixed-image/:id"}
+                path={ "/product-fixed-image/:id"}
                 element={<ProductFixedImage/>}
               /> 
 
            
               {/* Other pages */}
               <Route
-                path={process.env.PUBLIC_URL + "/about"}
+                path={ "/about"}
                 element={<About/>}
               />
               <Route
-                path={process.env.PUBLIC_URL + "/contact"}
+                path={ "/contact"}
                 element={<Contact/>}
               />
               <Route
-                path={process.env.PUBLIC_URL + "/my-account"}
+                path={ "/my-account"}
                 element={<MyAccount/>}
               />
               <Route
-                path={process.env.PUBLIC_URL + "/login"}
+                path={ "/login"}
                 element={<Login/>}
               />
               <Route
-                path={process.env.PUBLIC_URL + "/register"}
+                path={ "/register"}
                 element={<Register/>}
               />
               <Route
-                path={process.env.PUBLIC_URL + "/cart"}
+                path={ "/cart"}
                 element={<Cart/>}
               />
               <Route
-                path={process.env.PUBLIC_URL + "/wishlist"}
+                path={ "/wishlist"}
                 element={<Wishlist/>}
               />
           
               <Route
-                path={process.env.PUBLIC_URL + "/checkout"}
+                path={ "/checkout"}
                 element={<Checkout/>}
               /> 
 
