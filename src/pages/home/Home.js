@@ -1,11 +1,8 @@
 import React, { Fragment } from "react";
 import SEO from "../../components/seo";
 import LayoutOne from "../../layouts/LayoutOne";
-import TestimonialOne from "../../wrappers/testimonial/TestimonialOne";
-import BrandLogoSliderOne from "../../wrappers/brand-logo/BrandLogoSliderOne";
 import HeroSliderEight from "../../wrappers/hero-slider/HeroSliderEight";
 import FeatureIconThree from "../../wrappers/feature-icon/FeatureIconThree";
-import BannerNine from "../../wrappers/banner/BannerEleven";
 import TabProductFive from "../../wrappers/product/TabProductFive";
 
 const Home = () => {

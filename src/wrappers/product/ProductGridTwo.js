@@ -13,6 +13,7 @@ const ProductGridTwo = ({
 }) => {
   const { products } = useSelector((state) => state.product);
   const currency = useSelector((state) => state.currency);
+  
   const { cartItems } = useSelector((state) => state.cart);
   const prods = getProducts(products, category, type, limit);
   return (
