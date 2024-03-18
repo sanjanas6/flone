@@ -1,15 +1,15 @@
 [
   {
     "id": 1,
-    "title": "Cosmetic Best Selling",
-    "subtitle": "Fashion <br /> Cosmetic",
+    "title": "",
+    "subtitle": "",
     "image": "/assets/img/slider/hm13-slider-1.jpg",
     "url": "/shop-grid-standard"
   },
   {
     "id": 2,
-    "title": "Cosmetic Best Selling",
-    "subtitle": "Fashion  <br /> Cosmetic",
+    "title": "",
+    "subtitle": "",
     "image": "/assets/img/slider/hm13-slider-1.jpg",
     "url": "/shop-grid-standard"
   }
