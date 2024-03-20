@@ -47,17 +47,7 @@ const NavMenu = ({ menuWhiteClass, sidebarMenu }) => {
                   {t("Checkout")}
                 </Link>
               </li>
-              <li>
-                <Link to={process.env.PUBLIC_URL + "/wishlist"}>
-                  {t("wishlist")}
-                </Link>
-              </li>
-              <li>
-                <Link to={process.env.PUBLIC_URL + "/not-found"}>
-                  {t("404_page")}
-                </Link>
-              </li>
-            </ul>
+             </ul>
           </li> 
           <li>
             <Link to={process.env.PUBLIC_URL + "/about"}>

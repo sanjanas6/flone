@@ -14,17 +14,14 @@ const SEO = ({ title, titleTemplate, description }) => {
         </HelmetProvider>
     );
 };
-
 SEO.propTypes = {
     title: PropTypes.string,
     titleTemplate: PropTypes.string,
     description: PropTypes.string,
 }
-
 SEO.defaultProps = {
     title: "Fascinatingly Dark",
     titleTemplate: "Product Page",
     description: "Product page of flone react minimalist eCommerce template.",
 };
-
 export default SEO;

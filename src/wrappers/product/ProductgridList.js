@@ -2,7 +2,6 @@ import PropTypes from "prop-types";
 import React, { Fragment } from "react";
 import { useSelector } from "react-redux";
 import ProductGridListSingle from "../../components/product/ProductGridListSingle";
-
 const ProductGridList = ({
   products,
   spaceBottomClass

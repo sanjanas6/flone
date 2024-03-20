@@ -29,12 +29,6 @@ const Home = () => {
           spaceBottomClass="pb-70"
           featureShapeClass="support-shape-3"
         />
-        {/* testimonial */}
-        {/* <TestimonialOne spaceBottomClass="pb-95" /> */}
-        {/* banner */}
-        {/* <BannerNine spaceBottomClass="pb-70" /> */}
-        {/* brand logo slider */}
-        {/* <BrandLogoSliderOne spaceBottomClass="pb-95" /> */}
         </LayoutOne>
     </Fragment>
   );
