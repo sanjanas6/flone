@@ -1,536 +1,258 @@
 [
   {
     "id": "1",
-    "name": "Cocoa Lip Balm",
+    "name": "Strawberry Lip Balm",
     "price": 240,
-    "discount": 13,
+    "discount": 10,
     "new": false,
     "rating": 4,
     "saleCount": 54,
     "category": ["Lip Balm"],
     "stock":10,
     "image": [
-      "/assets/img/product/cosmetics/3.jpg"
+      "/assets/img/product/cosmetics/strawlip.jpg"
     ],
     "shortDescription": "Gently apply on lips using your fingertips and evenly spread throughout. Best results when used after Fascinatingly Dark LIP SCRUB.",
     "fullDescription": "Fascinatingly Dark lip balms are made with 100% natural ingredients .Keeps your lips moisturised.Protects lips from harmful external factors.It helps soften the lIps."
   },
   {
     "id": "2",
-    "sku": "asdf124",
-    "name": "Lorem ipsum coat",
-    "price": 18.5,
-    "discount": 15,
+    "name": "Cocoa Lip Balm",
+    "price": 240,
+    "discount": 10,
     "new": false,
-    "rating": 3,
-    "saleCount": 12,
-    "category": ["Lip Gloss"],
-    "tag": ["Lip Gloss", "coat", "full sleeve"],
-    "variation": [
-      {
-        "color": "blue",
-        "image": "/assets/img/product/Lip Balm/2.jpg",
-        "size": [
-          {
-            "name": "x",
-            "stock": 3
-          },
-          {
-            "name": "m",
-            "stock": 6
-          },
-          {
-            "name": "xl",
-            "stock": 7
-          }
-        ]
-      },
-      {
-        "color": "brown",
-        "image": "/assets/img/product/Lip Balm/4.jpg",
-        "size": [
-          {
-            "name": "x",
-            "stock": 4
-          },
-          {
-            "name": "m",
-            "stock": 8
-          },
-          {
-            "name": "xl",
-            "stock": 3
-          },
-          {
-            "name": "xxl",
-            "stock": 7
-          }
-        ]
-      },
-      {
-        "color": "black",
-        "image": "/assets/img/product/Lip Balm/5.jpg",
-        "size": [
-          {
-            "name": "x",
-            "stock": 3
-          },
-          {
-            "name": "m",
-            "stock": 7
-          },
-          {
-            "name": "xl",
-            "stock": 0
-          },
-          {
-            "name": "xxl",
-            "stock": 7
-          }
-        ]
-      }
-    ],
+    "rating": 4,
+    "saleCount": 54,
+    "category": ["Lip Balm"],
+    "stock":10,
     "image": [
-      "/assets/img/product/Lip Balm/2.jpg",
-      "/assets/img/product/Lip Balm/4.jpg",
-      "/assets/img/product/Lip Balm/5.jpg",
-      "/assets/img/product/Lip Balm/7.jpg",
-      "/assets/img/product/Lip Balm/9.jpg"
+      "/assets/img/product/cosmetics/cocoalip.jpg"
     ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+    "shortDescription": "Gently apply on lips using your fingertips and evenly spread throughout. Best results when used after Fascinatingly Dark LIP SCRUB.",
+    "fullDescription": "Fascinatingly Dark lip balms are made with 100% natural ingredients .Keeps your lips moisturised.Protects lips from harmful external factors.It helps soften the lIps."
   },
-
   {
     "id": "3",
-    "sku": "asdf125",
-    "name": "Lorem ipsum jacket",
-    "price": 17.45,
-    "discount": 40,
-    "offerEnd": "October 2, 2024 12:11:00",
-    "new": true,
-    "rating": 5,
-    "saleCount": 36,
-    "category": [ "Tint"],
-    "tag": ["Tint", "jacket", "full sleeve"],
-    "stock": 1,
+    "name": "Peach Lip Balm",
+    "price": 240,
+    "discount": 10,
+    "new": false,
+    "rating": 4,
+    "saleCount": 54,
+    "category": ["Lip Balm"],
+    "stock":10,
     "image": [
-      "/assets/img/product/Lip Balm/3.jpg",
-      "/assets/img/product/Lip Balm/1.jpg",
-      "/assets/img/product/Lip Balm/6.jpg",
-      "/assets/img/product/Lip Balm/8.jpg",
-      "/assets/img/product/Lip Balm/9.jpg"
+      "/assets/img/product/cosmetics/peachlip.jpg"
     ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+    "shortDescription": "Gently apply on lips using your fingertips and evenly spread throughout. Best results when used after Fascinatingly Dark LIP SCRUB.",
+    "fullDescription": "Fascinatingly Dark lip balms are made with 100% natural ingredients .Keeps your lips moisturised.Protects lips from harmful external factors.It helps soften the lIps."
   },
   {
     "id": "4",
-    "sku": "asdf126",
-    "name": "Lorem ipsum Lip Balm coat",
-    "price": 15.5,
-    "discount": 0,
-    "new": true,
+    "name": "Orange Lip Balm",
+    "price": 240,
+    "discount": 10,
+    "new": false,
     "rating": 4,
-    "saleCount": 20,
-    "category": ["Lip Gloss"],
-    "tag": ["Lip Balm", "Lip Gloss", "coat", "full sleeve"],
-    "variation": [
-      {
-        "color": "blue",
-        "image": "/assets/img/product/Lip Balm/2.jpg",
-        "size": [
-          {
-            "name": "x",
-            "stock": 3
-          },
-          {
-            "name": "m",
-            "stock": 6
-          },
-          {
-            "name": "xl",
-            "stock": 7
-          }
-        ]
-      },
-      {
-        "color": "brown",
-        "image": "/assets/img/product/Lip Balm/4.jpg",
-        "size": [
-          {
-            "name": "x",
-            "stock": 4
-          },
-          {
-            "name": "m",
-            "stock": 8
-          },
-          {
-            "name": "xl",
-            "stock": 3
-          },
-          {
-            "name": "xxl",
-            "stock": 7
-          }
-        ]
-      },
-      {
-        "color": "black",
-        "image": "/assets/img/product/Lip Balm/5.jpg",
-        "size": [
-          {
-            "name": "x",
-            "stock": 3
-          },
-          {
-            "name": "m",
-            "stock": 7
-          },
-          {
-            "name": "xl",
-            "stock": 0
-          },
-          {
-            "name": "xxl",
-            "stock": 7
-          }
-        ]
-      }
-    ],
+    "saleCount": 54,
+    "category": ["Lip Balm"],
+    "stock":10,
     "image": [
-      "/assets/img/product/Lip Balm/4.jpg",
-      "/assets/img/product/Lip Balm/2.jpg",
-      "/assets/img/product/Lip Balm/5.jpg",
-      "/assets/img/product/Lip Balm/7.jpg",
-      "/assets/img/product/Lip Balm/9.jpg"
+      "/assets/img/product/cosmetics/orangelip.jpg"
     ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+    "shortDescription": "Gently apply on lips using your fingertips and evenly spread throughout. Best results when used after Fascinatingly Dark LIP SCRUB.",
+    "fullDescription": "Fascinatingly Dark lip balms are made with 100% natural ingredients .Keeps your lips moisturised.Protects lips from harmful external factors.It helps soften the lIps."
   },
+  
   {
     "id": "5",
-    "sku": "asdf127",
-    "name": "Lorem ipsum female coat",
-    "price": 25.5,
+    "name": "Rose Lip and Cheek Tint",
+    "price": 280,
     "discount": 10,
-    "new": true,
-    "rating": 5,
-    "saleCount": 25,
-    "category": ["Lip Gloss"],
-    "tag": [ "Lip Gloss", "coat", "full sleeve"],
-    "variation": [
-      {
-        "color": "blue",
-        "image": "/assets/img/product/Lip Balm/2.jpg",
-        "size": [
-          {
-            "name": "x",
-            "stock": 3
-          },
-          {
-            "name": "m",
-            "stock": 6
-          },
-          {
-            "name": "xl",
-            "stock": 7
-          }
-        ]
-      },
-      {
-        "color": "brown",
-        "image": "/assets/img/product/Lip Balm/4.jpg",
-        "size": [
-          {
-            "name": "x",
-            "stock": 4
-          },
-          {
-            "name": "m",
-            "stock": 8
-          },
-          {
-            "name": "xl",
-            "stock": 3
-          },
-          {
-            "name": "xxl",
-            "stock": 7
-          }
-        ]
-      },
-      {
-        "color": "black",
-        "image": "/assets/img/product/Lip Balm/5.jpg",
-        "size": [
-          {
-            "name": "x",
-            "stock": 3
-          },
-          {
-            "name": "m",
-            "stock": 7
-          },
-          {
-            "name": "xl",
-            "stock": 0
-          },
-          {
-            "name": "xxl",
-            "stock": 7
-          }
-        ]
-      }
-    ],
+    "new": false,
+    "rating": 4,
+    "saleCount": 54,
+    "category": ["Tint"],
+    "stock":10,
     "image": [
-      "/assets/img/product/Lip Balm/5.jpg",
-      "/assets/img/product/Lip Balm/2.jpg",
-      "/assets/img/product/Lip Balm/4.jpg",
-      "/assets/img/product/Lip Balm/7.jpg",
-      "/assets/img/product/Lip Balm/9.jpg"
+      "/assets/img/product/cosmetics/RoseTint.jpg"
     ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+    "shortDescription": "Moisturise lips and cheeks. Dab some tint on the back of your hand using roll on bottle.Using fingertips gently massage it on cheeks and lips and leave it until dry.",
+    "fullDescription": "Fascinatingly Dark lip and cheek tint is extremely long lasting. Multipurpose product as it can be used as blush, lip colour and eyeshadow.Waterproof and smudgeproof. Blends easily onto skin.)"
   },
+
   {
     "id": "6",
-    "sku": "asdf128",
-    "name": "Lorem ipsum jacket",
-    "price": 19.85,
-    "discount": 0,
-    "offerEnd": "October 17, 2024 12:11:00",
-    "new": true,
-    "rating": 5,
-    "saleCount": 65,
-    "category": ["Tint"],
-    "tag": ["Tint", "jacket", "full sleeve"],
-    "variation": [
-      {
-        "color": "white",
-        "image": "/assets/img/product/Lip Balm/1.jpg",
-        "size": [
-          {
-            "name": "x",
-            "stock": 3
-          },
-          {
-            "name": "m",
-            "stock": 2
-          },
-          {
-            "name": "xl",
-            "stock": 5
-          }
-        ]
-      },
-      {
-        "color": "black",
-        "image": "/assets/img/product/Lip Balm/8.jpg",
-        "size": [
-          {
-            "name": "x",
-            "stock": 4
-          },
-          {
-            "name": "m",
-            "stock": 7
-          },
-          {
-            "name": "xl",
-            "stock": 9
-          },
-          {
-            "name": "xxl",
-            "stock": 1
-          }
-        ]
-      },
-      {
-        "color": "brown",
-        "image": "/assets/img/product/Lip Balm/3.jpg",
-        "size": [
-          {
-            "name": "x",
-            "stock": 1
-          },
-          {
-            "name": "m",
-            "stock": 2
-          },
-          {
-            "name": "xl",
-            "stock": 4
-          },
-          {
-            "name": "xxl",
-            "stock": 0
-          }
-        ]
-      }
-    ],
+    "name": "Silver Ice Crème Highlighter ",
+    "price": 250,
+    "discount": 10,
+    "new": false,
+    "rating": 4,
+    "saleCount": 54,
+    "category": ["Crème Highlighter "],
+    "stock":10,
     "image": [
-      "/assets/img/product/Lip Balm/6.jpg",
-      "/assets/img/product/Lip Balm/3.jpg",
-      "/assets/img/product/Lip Balm/1.jpg",
-      "/assets/img/product/Lip Balm/8.jpg",
-      "/assets/img/product/Lip Balm/9.jpg"
+      "/assets/img/product/cosmetics/silverhighlighter.jpg"
     ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+    "shortDescription": "Apply the highlighter on the cheekbone,bridge of nose below brows with the stick and blend.You can also mix with foundation to get beautiful glow.",
+    "fullDescription": "Fascinatingly Dark Glorious creme highlighter is natural and stays for more than 12 hours.Waterproof and Blends easily onto skin."
   },
+
   {
     "id": "7",
-    "sku": "asdf129",
-    "name": "Lorem ipsum Lip Balm female coat",
-    "price": 55.5,
-    "discount": 40,
-    "new": true,
-    "rating": 5,
-    "saleCount": 55,
-    "category": ["Lip Gloss"],
-    "tag": ["Lip Gloss", "coat", "full sleeve"],
-    "variation": [
-      {
-        "color": "blue",
-        "image": "/assets/img/product/Lip Balm/2.jpg",
-        "size": [
-          {
-            "name": "x",
-            "stock": 3
-          },
-          {
-            "name": "m",
-            "stock": 6
-          },
-          {
-            "name": "xl",
-            "stock": 7
-          }
-        ]
-      },
-      {
-        "color": "brown",
-        "image": "/assets/img/product/Lip Balm/4.jpg",
-        "size": [
-          {
-            "name": "x",
-            "stock": 4
-          },
-          {
-            "name": "m",
-            "stock": 8
-          },
-          {
-            "name": "xl",
-            "stock": 3
-          },
-          {
-            "name": "xxl",
-            "stock": 7
-          }
-        ]
-      },
-      {
-        "color": "black",
-        "image": "/assets/img/product/Lip Balm/5.jpg",
-        "size": [
-          {
-            "name": "x",
-            "stock": 3
-          },
-          {
-            "name": "m",
-            "stock": 7
-          },
-          {
-            "name": "xl",
-            "stock": 0
-          },
-          {
-            "name": "xxl",
-            "stock": 7
-          }
-        ]
-      }
-    ],
+    "name": "Golden Binge Crème Highlighter ",
+    "price": 250,
+    "discount": 10,
+    "new": false,
+    "rating": 4,
+    "saleCount": 54,
+    "category": ["Crème Highlighter "],
+    "stock":10,
     "image": [
-      "/assets/img/product/Lip Balm/7.jpg",
-      "/assets/img/product/Lip Balm/5.jpg",
-      "/assets/img/product/Lip Balm/2.jpg",
-      "/assets/img/product/Lip Balm/4.jpg",
-      "/assets/img/product/Lip Balm/9.jpg"
+      "/assets/img/product/cosmetics/goldenhghlighter.jpg"
     ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+    "shortDescription": "Apply the highlighter on the cheekbone,bridge of nose below brows with the stick and blend.You can also mix with foundation to get beautiful glow.",
+    "fullDescription": "Fascinatingly Dark Glorious creme highlighter is natural and stays for more than 12 hours.Waterproof and Blends easily onto skin."
   },
+
   {
     "id": "8",
-    "sku": "asdf130",
-    "name": "Lorem ipsum Lip Balm jacket",
-    "price": 29.85,
+    "name": "Carmine Hot Hue",
+    "price": 250,
     "discount": 10,
-    "offerEnd": "October 18, 2024 12:11:00",
     "new": false,
-    "rating": 5,
-    "saleCount": 83,
-    "category": ["Tint"],
-    "tag": ["Tint", "jacket", "full sleeve"],
-    "stock": 0,
+    "rating": 4,
+    "saleCount": 54,
+    "category": ["Hot Hue"],
+    "stock":10,
     "image": [
-      "/assets/img/product/Lip Balm/8.jpg",
-      "/assets/img/product/Lip Balm/6.jpg",
-      "/assets/img/product/Lip Balm/3.jpg",
-      "/assets/img/product/Lip Balm/1.jpg",
-      "/assets/img/product/Lip Balm/9.jpg"
+      "/assets/img/product/cosmetics/carminehue.jpg"
     ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+    "shortDescription": "Apply the Lip Hue on your lips with the stick.Can also be applied on cheek as a tint.",
+    "fullDescription": "Fascinatingly Dark Hot Hue is natural and doesnot harm lips Waterproof and Blends easily onto lips.It gives natural pigment to the lips."
   },
+
   {
     "id": "9",
-    "sku": "asdf131",
-    "name": "Lorem ipsum Lip Balm female top",
-    "price": 35.6,
-    "discount": 0,
+    "name": "Cerise Hot Hue",
+    "price": 250,
+    "discount": 10,
     "new": false,
     "rating": 4,
-    "saleCount": 95,
-    "category": ["Lip Gloss"],
-    "tag": ["Lip Gloss", "top", "sleeveless"],
-    "stock": 5,
-    "affiliateLink": "//www.amazon.com",
+    "saleCount": 54,
+    "category": ["Hot Hue"],
+    "stock":10,
     "image": [
-      "/assets/img/product/Lip Balm/9.jpg",
-      "/assets/img/product/Lip Balm/7.jpg",
-      "/assets/img/product/Lip Balm/5.jpg",
-      "/assets/img/product/Lip Balm/2.jpg",
-      "/assets/img/product/Lip Balm/4.jpg"
+      "/assets/img/product/cosmetics/cerisehue.jpg"
     ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+    "shortDescription": "Apply the Lip Hue on your lips with the stick.Can also be applied on cheek as a tint.",
+    "fullDescription": "Fascinatingly Dark Hot Hue is natural and doesnot harm lips Waterproof and Blends easily onto lips.It gives natural pigment to the lips."
   },
+
   {
     "id": "10",
-    "sku": "asdf132",
-    "name": "Lorem ipsum blender",
-    "price": 15.6,
-    "discount": 0,
+    "name": "Brunette Hot Hue",
+    "price": 250,
+    "discount": 10,
     "new": false,
     "rating": 4,
-    "saleCount": 90,
-    "category": ["Hot Hue","Creme Highlighter"],
-    "tag": ["Hot Hue"],
-    "stock": 15,
+    "saleCount": 54,
+    "category": ["Hot Hue"],
+    "stock":10,
     "image": [
-      "/assets/img/product/Hot Hue/1.jpg",
-      "/assets/img/product/Hot Hue/2.jpg",
-      "/assets/img/product/Hot Hue/3.jpg",
-      "/assets/img/product/Hot Hue/4.jpg",
-      "/assets/img/product/Hot Hue/5.jpg"
+      "/assets/img/product/cosmetics/Brunettehue.jpg"
     ],
-    "shortDescription": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
-    "fullDescription": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+    "shortDescription": "Apply the Lip Hue on your lips with the stick.Can also be applied on cheek as a tint.",
+    "fullDescription": "Fascinatingly Dark Hot Hue is natural and doesnot harm lips Waterproof and Blends easily onto lips.It gives natural pigment to the lips."
+  },
+
+  {
+    "id": "11",
+    "name": "Marmalade Hot Hue",
+    "price": 250,
+    "discount": 10,
+    "new": false,
+    "rating": 4,
+    "saleCount": 54,
+    "category": ["Hot Hue"],
+    "stock":10,
+    "image": [
+      "/assets/img/product/cosmetics/marmaladehue.jpg"
+    ],
+    "shortDescription": "Apply the Lip Hue on your lips with the stick.Can also be applied on cheek as a tint.",
+    "fullDescription": "Fascinatingly Dark Hot Hue is natural and doesnot harm lips Waterproof and Blends easily onto lips.It gives natural pigment to the lips."
+  },
+
+  {
+    "id": "12",
+    "name": "Glossious Lip Gloss(Strawberry)",
+    "price": 240,
+    "discount": 10,
+    "new": false,
+    "rating": 4,
+    "saleCount": 54,
+    "category": ["Lip Gloss"],
+    "stock":10,
+    "image": [
+      "/assets/img/product/cosmetics/strawberrygloss.jpg"
+    ],
+    "shortDescription": "Apply the Glossious lip gloss on your lips with the stick.",
+    "fullDescription": "Our Strawberry scented GLOSSIOUS LIP GLOSS transforms lips from dr and damaged, to plump and luscious. This non-sticky & light weight formula deeply hydrates,comforts, and leaves lips looking smooth and naturally plumped."
+  },
+
+  {
+    "id": "13",
+    "name": "Glossious Lip Gloss(Cocoa)",
+    "price": 240,
+    "discount": 10,
+    "new": false,
+    "rating": 4,
+    "saleCount": 54,
+    "category": ["Lip Gloss"],
+    "stock":10,
+    "image": [
+      "/assets/img/product/cosmetics/cocoagloss.jpg"
+    ],
+    "shortDescription": "Apply the Glossious lip gloss on your lips with the stick.",
+    "fullDescription": "Our Cocoa scented GLOSSIOUS LIP GLOSS transforms lips from dry and damaged, to plump and luscious. This non-sticky & light weight formula deeply hydrates, comforts, and leaves lips looking smooth and naturally plumped.."
+  },
+
+  {
+    "id": "14",
+    "name": "Glossious Lip Gloss(Peach)",
+    "price": 240,
+    "discount": 10,
+    "new": false,
+    "rating": 4,
+    "saleCount": 54,
+    "category": ["Lip Gloss"],
+    "stock":10,
+    "image": [
+      "/assets/img/product/cosmetics/peachgloss.jpg"
+    ],
+    "shortDescription": "Apply the Glossious lip gloss on your lips with the stick.",
+    "fullDescription": "Our Peach scente GLOSSIOUS LIP GLOSS transforms lips from dry and damaged,to plump and luscious. This non-sticky & light weight formula deeply hydrates, comforts, and leaves lips looking smooth and naturally plumped."
+  },
+
+  {
+    "id": "15",
+    "name": "Glossious Lip Gloss(Orange)",
+    "price": 240,
+    "discount": 10,
+    "new": false,
+    "rating": 4,
+    "saleCount": 54,
+    "category": ["Lip Gloss"],
+    "stock":10,
+    "image": [
+      "/assets/img/product/cosmetics/orangegloss.jpg"
+    ],
+    "shortDescription": "Apply the Glossious lip gloss on your lips with the stick.",
+    "fullDescription": "Our Orange scented GLOSSIOUS LIP GLOSS transforms lips from dry and damaged, to plump and luscious. This non-sticky & light weight formula deeply hydrates, comforts, and leaves lips looking smooth and naturally plumped."
   }
+
+
+
+
+
 ]
