@@ -16,7 +16,7 @@ const LoginRegister = () => {
     e.preventDefault(); 
 
     try {
-        const response = await axios.post('http://localhost:8080/api/v1/auth/login', {
+        const response = await axios.post(`${process.env.BACKEND_URL}/auth/login`, {
             phone: phone,
             password: password
         });
@@ -50,14 +50,14 @@ const LoginRegister = () => {
     <Fragment>
       <SEO
         titleTemplate="Login"
-        description="Login page of flone react minimalist eCommerce template."
+        description="Login page of Fascinatingly Dark react minimalist eCommerce template."
       />
       <LayoutOne headerTop="visible">
         {/* breadcrumb */}
         <Breadcrumb 
           pages={[
-            {label: "Home", path: process.env.PUBLIC_URL + "/" },
-            {label: "Login", path: process.env.PUBLIC_URL + pathname }
+            {label: "Home", path:  "/" },
+            {label: "Login", path:  pathname }
           ]} 
         />
         <div className="login-register-area pt-100 pb-100">
@@ -86,7 +86,7 @@ const LoginRegister = () => {
                                 {/* <div className="login-toggle-btn"> */}
                                   {/* <input type="checkbox" /> */}
                                   {/* <label className="ml-10">Remember me</label>
-                                  <Link to={process.env.PUBLIC_URL + "/"}>
+                                  <Link to={ "/"}>
                                     Forgot Password?
                                   </Link> */}
                                 {/* </div> */}

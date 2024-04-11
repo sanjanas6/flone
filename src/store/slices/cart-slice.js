@@ -69,12 +69,11 @@ const cartSlice = createSlice({
                     });
                 }
             }
-
             cogoToast.success("Added To Cart", {position: "bottom-left"});
         },
         deleteFromCart(state, action) {
-            state.cartItems = state.cartItems.filter(item => item.cartItemId !== action.payload);
-            cogoToast.error("Removed From Cart", {position: "bottom-left"});
+             state.cartItems = state.cartItems.filter(item => item.cartItemId !== action.payload);
+             cogoToast.error("Removed From Cart", {position: "bottom-left"});
         },
         decreaseQuantity(state, action){
             const product = action.payload;

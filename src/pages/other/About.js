@@ -16,14 +16,14 @@ const About = () => {
     <Fragment>
       <SEO
         titleTemplate="About us"
-        description="About page of flone react minimalist eCommerce template."
+        description="About page of Fascinatingly Dark react minimalist eCommerce template."
       /> 
       <LayoutOne headerTop="visible">
         {/* breadcrumb */}
         <Breadcrumb 
           pages={[
-            {label: "Home", path: process.env.PUBLIC_URL + "/" },
-            {label: "About us", path: process.env.PUBLIC_URL + pathname }
+            {label: "Home", path:  "/" },
+            {label: "About us", path:  pathname }
           ]} 
         />
 

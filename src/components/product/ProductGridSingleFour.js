@@ -30,10 +30,10 @@ const ProductGridSingleFour = ({
     <Fragment>
       <div className={clsx("product-wrap-5", spaceBottomClass)}>
         <div className="product-img">
-          <Link to={process.env.PUBLIC_URL + "/product/" + product.id}>
+          <Link to={ "/product/" + product.id}>
             <img
               className="default-img"
-              src={process.env.PUBLIC_URL + product.image[0]}
+              src={ product.image[0]}
               alt=""
             />
           </Link>
@@ -81,7 +81,7 @@ const ProductGridSingleFour = ({
                   to={`${process.env.PUBLIC_URL}/product/${product.id}`}
                   title="Select options"
                 >
-                  <i class="fa fa-cog"></i>
+                  <i className="fa fa-cog"></i>
                 </Link>
               ) : product.stock && product.stock > 0 ? (
                 <button
@@ -130,7 +130,7 @@ const ProductGridSingleFour = ({
         </div>
         <div className="product-content-5 text-center">
           <h3>
-            <Link to={process.env.PUBLIC_URL + "/product/" + product.id}>
+            <Link to={ "/product/" + product.id}>
               {product.name}
             </Link>
           </h3>

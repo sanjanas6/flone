@@ -29,16 +29,16 @@ const ProductGridSingleThree = ({
     <Fragment>
       <div className={clsx("product-wrap-2 pro-glaucous-color", spaceBottomClass)}>
         <div className="product-img">
-          <Link to={process.env.PUBLIC_URL + "/product/" + product.id}>
+          <Link to={ "/product/" + product.id}>
             <img
               className="default-img"
-              src={process.env.PUBLIC_URL + product.image[0]}
+              src={ product.image[0]}
               alt=""
             />
             {product.image.length > 1 ? (
               <img
                 className="hover-img"
-                src={process.env.PUBLIC_URL + product.image[1]}
+                src={ product.image[1]}
                 alt=""
               />
             ) : (
@@ -74,7 +74,7 @@ const ProductGridSingleThree = ({
                 to={`${process.env.PUBLIC_URL}/product/${product.id}`}
                 title="Select options"
               >
-                <i class="fa fa-cog"></i>
+                <i className="fa fa-cog"></i>
               </Link>
             ) : product.stock && product.stock > 0 ? (
               <button
@@ -119,7 +119,7 @@ const ProductGridSingleThree = ({
         <div className="product-content-2">
           <div className="title-price-wrap-2">
             <h3>
-              <Link to={process.env.PUBLIC_URL + "/product/" + product.id}>
+              <Link to={ "/product/" + product.id}>
                 {product.name}
               </Link>
             </h3>

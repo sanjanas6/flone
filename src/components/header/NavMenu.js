@@ -15,19 +15,19 @@ const NavMenu = ({ menuWhiteClass, sidebarMenu }) => {
       <nav>
         <ul>
           <li>
-            <Link to={process.env.PUBLIC_URL + "/home"}>
+            <Link to={ "/home"}>
               {t("Home")}
             </Link>
             </li>
 
           <li>
-            <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
+            <Link to={ "/shop"}>
               {" "}
               {t("Shop")}
               </Link>
            </li>
           <li>
-            <Link to={process.env.PUBLIC_URL + "/"}>
+            <Link to={ "/"}>
               {t("Pages")}
               {sidebarMenu ? (
                 <span>
@@ -39,24 +39,24 @@ const NavMenu = ({ menuWhiteClass, sidebarMenu }) => {
             </Link>
             <ul className="submenu">
               <li>
-                <Link to={process.env.PUBLIC_URL + "/cart"}>
+                <Link to={ "/cart"}>
                   {t("Cart")}
                 </Link>
               </li>
               <li>
-                <Link to={process.env.PUBLIC_URL + "/checkout"}>
+                <Link to={ "/checkout"}>
                   {t("Checkout")}
                 </Link>
               </li>
              </ul>
           </li> 
           <li>
-            <Link to={process.env.PUBLIC_URL + "/about"}>
+            <Link to={ "/about"}>
               {t("About-us")}
             </Link>
           </li>
           <li>
-            <Link to={process.env.PUBLIC_URL + "/contact"}>
+            <Link to={ "/contact"}>
               {t("Contact-us")}
             </Link>
           </li>

@@ -20,7 +20,7 @@ const productImageGallerySticky = ({ product }) => {
         {product?.image?.map((single, key) => (
           <div className="product-sticky-image__single mb-10" key={key}>
             <img
-              src={process.env.PUBLIC_URL + single}
+              src={ single}
               alt=""
               className="img-fluid"
             />

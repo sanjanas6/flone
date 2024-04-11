@@ -11,14 +11,14 @@ const Contact = () => {
     <Fragment>
       <SEO
         titleTemplate="Contact"
-        description="Contact page of flone react minimalist eCommerce template."
+        description="Contact page of Fascinatingly Dark react minimalist eCommerce template."
       />
       <LayoutOne headerTop="visible">
         {/* breadcrumb */}
         <Breadcrumb 
           pages={[
-            {label: "Home", path: process.env.PUBLIC_URL + "/" },
-            {label: "Contact", path: process.env.PUBLIC_URL + pathname }
+            {label: "Home", path:  "/" },
+            {label: "Contact", path:  pathname }
           ]} 
         />
         <div className="contact-area pt-100 pb-100">

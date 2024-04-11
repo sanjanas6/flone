@@ -11,14 +11,14 @@ const NotFound = () => {
     <Fragment>
       <SEO
         titleTemplate="Not Found"
-        description="404 of flone react minimalist eCommerce template."
+        description="404 of Fascinatingly Dark react minimalist eCommerce template."
       />
       <LayoutOne headerTop="visible">
         {/* breadcrumb */}
         <Breadcrumb 
           pages={[
-            {label: "Home", path: process.env.PUBLIC_URL + "/" },
-            {label: "404 page", path: process.env.PUBLIC_URL + pathname }
+            {label: "Home", path:  "/" },
+            {label: "404 page", path:  pathname }
           ]} 
         />
         <div className="error-area pt-40 pb-100">
@@ -44,7 +44,7 @@ const NotFound = () => {
                       <i className="fa fa-search" />
                     </button>
                   </form>
-                  <Link to={process.env.PUBLIC_URL + "/"} className="error-btn">
+                  <Link to={ "/"} className="error-btn">
                     Back to home page
                   </Link>
                 </div>

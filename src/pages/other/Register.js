@@ -56,8 +56,8 @@ const Register = () => {
         {/* breadcrumb */}
         <Breadcrumb 
           pages={[
-            {label: "Home", path: process.env.PUBLIC_URL + "/" },
-            {label: "Register", path: process.env.PUBLIC_URL + pathname }
+            {label: "Home", path:  "/" },
+            {label: "Register", path:  pathname }
           ]} 
         />
         <div className="login-register-area pt-100 pb-100">

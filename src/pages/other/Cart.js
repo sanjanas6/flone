@@ -1,6 +1,6 @@
 import { Fragment, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 import SEO from "../../components/seo";
 import { getDiscountPrice } from "../../helpers/product";
 import LayoutOne from "../../layouts/LayoutOne";
@@ -10,27 +10,21 @@ import { cartItemStock } from "../../helpers/product";
 
 const Cart = () => {
   let cartTotalPrice = 0;
-
   const [quantityCount] = useState(1);
   const dispatch = useDispatch();
-  let { pathname } = useLocation();
-  
   const currency = useSelector((state) => state.currency);
   const { cartItems } = useSelector((state) => state.cart);
-
   return (
     <Fragment>
       <SEO
         titleTemplate="Cart"
-        description="Cart page of flone react minimalist eCommerce template."
+        description="Cart page of Fascinatingly Dark"
       />
-
       <LayoutOne headerTop="visible">
-        {/* breadcrumb */}
         <Breadcrumb 
           pages={[
-            {label: "Home", path: process.env.PUBLIC_URL + "/" },
-            {label: "Cart", path: process.env.PUBLIC_URL + pathname }
+            {label: "Home", path: "/" },
+            {label: "Cart" }
           ]} 
         />
         <div className="cart-main-area pt-90 pb-100">
@@ -75,7 +69,6 @@ const Cart = () => {
                                 <td className="product-thumbnail">
                                   <Link
                                     to={
-                                      process.env.PUBLIC_URL +
                                       "/product/" +
                                       cartItem.id
                                     }
@@ -83,7 +76,7 @@ const Cart = () => {
                                     <img
                                       className="img-fluid"
                                       src={
-                                        process.env.PUBLIC_URL +
+                                        
                                         cartItem.image[0]
                                       }
                                       alt=""
@@ -94,27 +87,14 @@ const Cart = () => {
                                 <td className="product-name">
                                   <Link
                                     to={
-                                      process.env.PUBLIC_URL +
+                                      
                                       "/product/" +
                                       cartItem.id
                                     }
                                   >
                                     {cartItem.name}
                                   </Link>
-                                  {cartItem.selectedProductColor &&
-                                  cartItem.selectedProductSize ? (
-                                    <div className="cart-item-variation">
-                                      <span>
-                                        Color: {cartItem.selectedProductColor}
-                                      </span>
-                                      <span>
-                                        Size: {cartItem.selectedProductSize}
-                                      </span>
-                                    </div>
-                                  ) : (
-                                    ""
-                                  )}
-                                </td>
+                                 </td>
 
                                 <td className="product-price-cart">
                                   {discountedPrice !== null ? (
@@ -135,7 +115,6 @@ const Cart = () => {
                                     </span>
                                   )}
                                 </td>
-
                                 <td className="product-quantity">
                                   <div className="cart-plus-minus">
                                     <button
@@ -160,7 +139,7 @@ const Cart = () => {
                                           quantity: quantityCount
                                         }))
                                       }
-                                      disabled={
+                                      disabled = {
                                         cartItem !== undefined &&
                                         cartItem.quantity &&
                                         cartItem.quantity >=
@@ -209,7 +188,7 @@ const Cart = () => {
                     <div className="cart-shiping-update-wrapper">
                       <div className="cart-shiping-update">
                         <Link
-                          to={process.env.PUBLIC_URL + "/shop-grid-standard"}
+                          to={ "/shop"}
                         >
                           Continue Shopping
                         </Link>
@@ -222,11 +201,8 @@ const Cart = () => {
                     </div>
                   </div>
                 </div>
-
                 <div className="row">
-                  
-
-                  {/* <div className="col-lg-4 col-md-6">
+                <div className="col-lg-4 col-md-6">
                     <div className="discount-code-wrapper">
                       <div className="title-wrap">
                         <h4 className="cart-bottom-title section-bg-gray">
@@ -243,9 +219,8 @@ const Cart = () => {
                         </form>
                       </div>
                     </div>
-                  </div> */}
-
-                  <div className="col-lg-4 col-md-12">
+                  </div>
+                   <div className="col-lg-4 col-md-12">
                     <div className="grand-totall">
                       <div className="title-wrap">
                         <h4 className="cart-bottom-title section-bg-gary-cart">
@@ -258,15 +233,14 @@ const Cart = () => {
                           {"₹"+ cartTotalPrice.toFixed(2)}
                         </span>
                       </h5>
-
                       <h4 className="grand-totall-title">
                         Grand Total{" "}
                         <span>
                           {"₹" + cartTotalPrice.toFixed(2)}
                         </span>
                       </h4>
-                      <Link to={process.env.PUBLIC_URL + "/checkout"}>
-                        Proceed to Checkout
+                      <Link to={ "/checkout"}>
+                        Proceed To Checkout
                       </Link>
                     </div>
                   </div>
@@ -281,19 +255,23 @@ const Cart = () => {
                     </div>
                     <div className="item-empty-area__text">
                       No items found in cart <br />{" "}
-                      <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
+                      <Link to={ "/shop"}>
                         Shop Now
+                      </Link>
+                      <Link to={"/"}>
+                        Home
                       </Link>
                     </div>
                   </div>
                 </div>
               </div>
             )}
+            
           </div>
+          
         </div>
       </LayoutOne>
     </Fragment>
   );
 };
-
 export default Cart;

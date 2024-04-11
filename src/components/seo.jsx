@@ -22,6 +22,6 @@ SEO.propTypes = {
 SEO.defaultProps = {
     title: "Fascinatingly Dark",
     titleTemplate: "Product Page",
-    description: "Product page of flone react minimalist eCommerce template.",
+    description: "Product page of Fascinatingly Dark react minimalist eCommerce template.",
 };
 export default SEO;

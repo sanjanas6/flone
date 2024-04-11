@@ -29,10 +29,10 @@ const ProductGridSingleFive = ({
     <Fragment>
       <div className={clsx("product-wrap-3 scroll-zoom", spaceBottomClass)}>
         <div className="product-img">
-          <Link to={process.env.PUBLIC_URL + "/product/" + product.id}>
+          <Link to={ "/product/" + product.id}>
             <img
               className="default-img"
-              src={process.env.PUBLIC_URL + product.image[0]}
+              src={ product.image[0]}
               alt=""
             />
           </Link>
@@ -54,7 +54,7 @@ const ProductGridSingleFive = ({
               <div className="product-title">
                 <h3>
                   <Link
-                    to={process.env.PUBLIC_URL + "/product/" + product.id}
+                    to={ "/product/" + product.id}
                   >
                     {product.name}
                   </Link>
@@ -105,7 +105,8 @@ const ProductGridSingleFive = ({
                       to={`${process.env.PUBLIC_URL}/product/${product.id}`}
                       title="Select options"
                     >
-                      <i class="fa fa-cog"></i>
+
+                      <i className="fa fa-cog"></i>
                     </Link>
                   ) : product.stock && product.stock > 0 ? (
                     <button

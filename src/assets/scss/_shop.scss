@@ -273,7 +273,7 @@
       &.page-item {
         &.active {
           .page-link {
-            --bs-pagination-active-color: #ffffff;
+            --bs-pagination-active-color: #fffef1;
             border-color: $theme-color;
             background-color: $theme-color;
             box-shadow: 0 0 12px 0.8px rgba(0, 0, 0, 0.1) !important;

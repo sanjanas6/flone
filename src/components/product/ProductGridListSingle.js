@@ -30,16 +30,16 @@ const ProductGridListSingle = ({
     <Fragment>
         <div className={clsx("product-wrap", spaceBottomClass)}>
           <div className="product-img">
-            <Link to={process.env.PUBLIC_URL + "/product/" + product.id}>
+            <Link to={ "/product/" + product.id}>
               <img
                 className="default-img"
-                src={process.env.PUBLIC_URL + product.image[0]}
+                src={ product.image[0]}
                 alt=""
               />
               {/* {product.image.length > 1 ? (
                 <img
                   className="hover-img"
-                  src={process.env.PUBLIC_URL + product.image[1]}
+                  src={ product.image[1]}
                   alt=""
                 />
               ) : (
@@ -121,7 +121,7 @@ const ProductGridListSingle = ({
           </div>
           <div className="product-content text-center">
             <h3>
-              <Link to={process.env.PUBLIC_URL + "/product/" + product.id}>
+              <Link to={ "/product/" + product.id}>
                 {product.name}
               </Link>
             </h3>
@@ -151,16 +151,16 @@ const ProductGridListSingle = ({
             <div className="col-xl-4 col-md-5 col-sm-6">
               <div className="product-list-image-wrap">
                 <div className="product-img">
-                  <Link to={process.env.PUBLIC_URL + "/product/" + product.id}>
+                  <Link to={ "/product/" + product.id}>
                     <img
                       className="default-img img-fluid"
-                      src={process.env.PUBLIC_URL + product.image[0]}
+                      src={ product.image[0]}
                       alt=""
                     />
                     {product.image.length > 1 ? (
                       <img
                         className="hover-img img-fluid"
-                        src={process.env.PUBLIC_URL + product.image[1]}
+                        src={ product.image[1]}
                         alt=""
                       />
                     ) : (
@@ -185,7 +185,7 @@ const ProductGridListSingle = ({
             <div className="col-xl-8 col-md-7 col-sm-6">
               <div className="shop-list-content">
                 <h3>
-                  <Link to={process.env.PUBLIC_URL + "/product/" + product.id}>
+                  <Link to={ "/product/" + product.id}>
                     {product.name}
                   </Link>
                 </h3>

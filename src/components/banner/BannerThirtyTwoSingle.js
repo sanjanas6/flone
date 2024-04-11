@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 const BannerThirtyTwoSingle = ({ data, spaceBottomClass }) => {
   return (
       <div className={clsx("single-banner banner-red-color", spaceBottomClass)}>
-        <Link to={process.env.PUBLIC_URL + data.link}>
-          <img src={process.env.PUBLIC_URL + data.image} alt="" />
+        <Link to={ data.link}>
+          <img src={ data.image} alt="" />
         </Link>
         <div className="banner-content">
           <h3>{data.title}</h3>

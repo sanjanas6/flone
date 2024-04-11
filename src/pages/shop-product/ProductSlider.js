@@ -18,15 +18,15 @@ const ProductSlider = () => {
     <Fragment>
       <SEO
         titleTemplate="Product Page"
-        description="Product page of flone react minimalist eCommerce template."
+        description="Product page of Fascinatingly Dark react minimalist eCommerce template."
       />
 
       <LayoutOne headerTop="visible">
         {/* breadcrumb */}
         <Breadcrumb 
           pages={[
-            {label: "Home", path: process.env.PUBLIC_URL + "/" },
-            {label: "Shop Product", path: process.env.PUBLIC_URL + pathname }
+            {label: "Home", path:  "/" },
+            {label: "Shop Product", path:  pathname }
           ]} 
         />
 

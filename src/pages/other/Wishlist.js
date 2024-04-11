@@ -21,14 +21,14 @@ const Wishlist = () => {
     <Fragment>
       <SEO
         titleTemplate="Wishlist"
-        description="Wishlist page of flone react minimalist eCommerce template."
+        description="Wishlist page of Fascinatingly Dark react minimalist eCommerce template."
       />
       <LayoutOne headerTop="visible">
         {/* breadcrumb */}
         <Breadcrumb 
           pages={[
-            {label: "Home", path: process.env.PUBLIC_URL + "/" },
-            {label: "Wishlist", path: process.env.PUBLIC_URL + pathname }
+            {label: "Home", path:  "/" },
+            {label: "Wishlist", path:  pathname }
           ]} 
         />
         <div className="cart-main-area pt-90 pb-100">
@@ -69,7 +69,7 @@ const Wishlist = () => {
                                 <td className="product-thumbnail">
                                   <Link
                                     to={
-                                      process.env.PUBLIC_URL +
+                                      
                                       "/product/" +
                                       wishlistItem.id
                                     }
@@ -77,7 +77,7 @@ const Wishlist = () => {
                                     <img
                                       className="img-fluid"
                                       src={
-                                        process.env.PUBLIC_URL +
+                                        
                                         wishlistItem.image[0]
                                       }
                                       alt=""
@@ -88,7 +88,7 @@ const Wishlist = () => {
                                 <td className="product-name text-center">
                                   <Link
                                     to={
-                                      process.env.PUBLIC_URL +
+                                      
                                       "/product/" +
                                       wishlistItem.id
                                     }
@@ -191,7 +191,7 @@ const Wishlist = () => {
                     <div className="cart-shiping-update-wrapper">
                       <div className="cart-shiping-update">
                         <Link
-                          to={process.env.PUBLIC_URL + "/shop-grid-standard"}
+                          to={ "/shop"}
                         >
                           Continue Shopping
                         </Link>
@@ -214,7 +214,7 @@ const Wishlist = () => {
                     </div>
                     <div className="item-empty-area__text">
                       No items found in wishlist <br />{" "}
-                      <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
+                      <Link to={ "/shop"}>
                         Add Items
                       </Link>
                     </div>

@@ -12,14 +12,14 @@ const MyAccount = () => {
     <Fragment>
       <SEO
         titleTemplate="My Account"
-        description="My Account page of flone react minimalist eCommerce template."
+        description="My Account page of Fascinatingly Dark react minimalist eCommerce template."
       />
       <LayoutOne headerTop="visible">
         {/* breadcrumb */}
         <Breadcrumb 
           pages={[
-            {label: "Home", path: process.env.PUBLIC_URL + "/" },
-            {label: "My Account", path: process.env.PUBLIC_URL + pathname }
+            {label: "Home", path:  "/" },
+            {label: "My Account", path:  pathname }
           ]} 
         />
         

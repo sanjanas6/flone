@@ -1,11 +1,9 @@
 import { Suspense, lazy } from "react";
 import ScrollToTop from "./helpers/scroll-top";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-// home pages
+
 const Home = lazy(() => import("./pages/home/Home"));
-// shop pages
 const ShopGridStandard = lazy(() => import("./pages/shop/ShopGridStandard"));
-// product pages
 const Product = lazy(() => import("./pages/shop-product/Product"));
 const ProductTabLeft = lazy(() =>
   import("./pages/shop-product/ProductTabLeft")
@@ -18,8 +16,6 @@ const ProductSlider = lazy(() => import("./pages/shop-product/ProductSlider"));
 const ProductFixedImage = lazy(() =>
   import("./pages/shop-product/ProductFixedImage")
 );
-
-// other pages
 const About = lazy(() => import("./pages/other/About"));
 const Contact = lazy(() => import("./pages/other/Contact"));
 const MyAccount = lazy(() => import("./pages/other/MyAccount"));
@@ -31,13 +27,14 @@ const Checkout = lazy(() => import("./pages/other/Checkout"));
 const NotFound = lazy(() => import("./pages/other/NotFound"));
 
 const App = () => {
+ 
   return (
       <Router>
         <ScrollToTop>
           <Suspense
             fallback={
-              <div className="flone-preloader-wrapper">
-                <div className="flone-preloader">
+              <div className="Fascinatingly Dark-preloader-wrapper">
+                <div className="Fascinatingly Dark-preloader">
                   <span></span>
                   <span></span>
                 </div>
@@ -49,21 +46,15 @@ const App = () => {
                 path={ "/"}
                 element={<Home/>}
               />
-
-              {/* Homepages */}
               <Route
                 path={"/home"}
                 element={<Home/>}
               />
-              
-              {/* Shop pages */}
               <Route
-                path={ "/shop-grid-standard"}
+                path={ "/shop"}
                 element={<ShopGridStandard/>}
               />
-             
-              {/* Shop product pages */}
-              <Route
+             <Route
                 path={ "/product/:id"}
                 element={<Product />}
               />
@@ -87,9 +78,6 @@ const App = () => {
                 path={ "/product-fixed-image/:id"}
                 element={<ProductFixedImage/>}
               /> 
-
-           
-              {/* Other pages */}
               <Route
                 path={ "/about"}
                 element={<About/>}
@@ -118,12 +106,10 @@ const App = () => {
                 path={ "/wishlist"}
                 element={<Wishlist/>}
               />
-          
               <Route
                 path={ "/checkout"}
                 element={<Checkout/>}
               /> 
-
               <Route path="*" element={<NotFound/>} />
             </Routes>
           </Suspense>

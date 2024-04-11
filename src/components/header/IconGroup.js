@@ -53,15 +53,15 @@ const IconGroup = ({ iconWhiteClass }) => {
         <div className="account-dropdown">
           <ul>
             <li>
-              <Link to={process.env.PUBLIC_URL + "/login"}>Login</Link>
+              <Link to={ "/login"}>Login</Link>
             </li>
             <li>
-              <Link to={process.env.PUBLIC_URL + "/register"}>
+              <Link to={ "/register"}>
                 Register
               </Link>
             </li>
             <li>
-              <Link to={process.env.PUBLIC_URL + "/my-account"}>
+              <Link to={ "/my-account"}>
                 My Account
               </Link>
             </li>
@@ -83,7 +83,7 @@ const IconGroup = ({ iconWhiteClass }) => {
         <MenuCart />
       </div>
       <div className="same-style cart-wrap d-block d-lg-none">
-        <Link className="icon-cart" to={process.env.PUBLIC_URL + "/cart"}>
+        <Link className="icon-cart" to={ "/cart"}>
           <i className="pe-7s-shopbag" />
           <span className="count-style">
             {cartItems && cartItems.length ? cartItems.length : 0}

@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 const Logo = ({ imageUrl, logoClass }) => {
   return (
     <div className={clsx(logoClass)}>
-      <Link to={process.env.PUBLIC_URL + "/home"}>
-        <img alt="" src={process.env.PUBLIC_URL + imageUrl} style={{width:"80px" }}/>
+      <Link to={ "/home"}>
+        <img alt="" src={ imageUrl} style={{width:"80px" }}/>
       </Link>
     </div>
   );

@@ -32,7 +32,7 @@ const ProductImageGallerySlider = ({ product }) => {
             <SwiperSlide key={key}>
               <div className="single-image">
                 <img
-                  src={process.env.PUBLIC_URL + single}
+                  src={ single}
                   className="img-fluid"
                   alt=""
                 />

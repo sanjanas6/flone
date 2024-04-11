@@ -51,15 +51,15 @@ const ShopListFullWidth = ({location}) => {
         <Fragment>
             <SEO
                 titleTemplate="Shop Page"
-                description="Shop page of flone react minimalist eCommerce template."
+                description="Shop page of Fascinatingly Dark react minimalist eCommerce template."
             />
 
             <LayoutOne headerTop="visible">
                 {/* breadcrumb */}
                 <Breadcrumb 
                     pages={[
-                        {label: "Home", path: process.env.PUBLIC_URL + "/" },
-                        {label: "Shop", path: process.env.PUBLIC_URL + pathname }
+                        {label: "Home", path:  "/" },
+                        {label: "Shop", path:  pathname }
                     ]} 
                 />
 

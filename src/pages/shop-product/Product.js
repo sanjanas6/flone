@@ -19,15 +19,15 @@ const Product = () => {
     <Fragment>
       <SEO
         titleTemplate="Product Page"
-        description="Product Page of flone react minimalist eCommerce template."
+        description="Product Page of Fascinatingly Dark react minimalist eCommerce template."
       />
 
       <LayoutOne headerTop="visible">
         {/* breadcrumb */}
         <Breadcrumb 
           pages={[
-            {label: "Home", path: process.env.PUBLIC_URL + "/" },
-            {label: "Shop Product", path: process.env.PUBLIC_URL + pathname }
+            {label: "Home", path:  "/" },
+            {label: "Shop Product", path:  pathname }
           ]} 
         />
 

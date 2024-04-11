@@ -7,7 +7,7 @@ const FeatureIconFiveSingle = ({ data, spaceBottomClass }) => {
         <div className="support-icon-4">
           <img
             className="animated"
-            src={process.env.PUBLIC_URL + data.image}
+            src={ data.image}
             alt=""
           />
         </div>
