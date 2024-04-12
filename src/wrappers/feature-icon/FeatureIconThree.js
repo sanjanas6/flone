@@ -15,11 +15,10 @@ const FeatureIconThree = ({
       <div className="container">
         <div className="row">
           {featureIconData?.map((single, key) => (
-            <div className="col-lg-4 col-md-4 col-sm-6" key={key}>
+            <div className="col-lg-3 col-md-6 col-sm-6" key={key}>
               <FeatureIconThreeSingle
                 data={single}
                 spaceBottomClass="mb-30"
-                featureShapeClass={featureShapeClass}
               />
             </div>
           ))}

@@ -1,20 +1,26 @@
 [
   {
     "id": 1,
-    "image": "/assets/img/icon-img/support-1.png",
-    "title": "Free Shipping",
+    "image": "/assets/img/icon-img/6.webp",
+    "title": "Lip Gloss",
     "subtitle": "Free shipping on all order"
   },
   {
     "id": 2,
-    "image": "/assets/img/icon-img/support-2.png",
-    "title": "Support 24/7",
+    "image": "/assets/img/icon-img/5.webp",
+    "title": "Hot Hue",
     "subtitle": "Free shipping on all order"
   },
   {
     "id": 3,
-    "image": "/assets/img/icon-img/support-3.png",
-    "title": "Money Return",
+    "image": "/assets/img/icon-img/3.webp",
+    "title": "Tint",
+    "subtitle": "Free shipping on all order"
+  },
+  {
+    "id": 4,
+    "image": "/assets/img/icon-img/2.webp",
+    "title": "Lip Balm",
     "subtitle": "Free shipping on all order"
   }
 ]

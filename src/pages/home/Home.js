@@ -19,11 +19,11 @@ const Home = () => {
         {/* hero slider */}
         <HeroSliderEight />
         {/* tab product */}
-        <TabProductFive
+        {/* <TabProductFive
           spaceTopClass="pt-95"
           spaceBottomClass="pb-70"
           category="cosmetics"
-        />
+        /> */}
         {/* feature icon */}
         <FeatureIconThree
           spaceBottomClass="pb-70"
