@@ -29,10 +29,9 @@ const HeroSliderEight = () => {
               </SwiperSlide>
             ))}
           </Swiper>
-        )
+        )}
       </div>
     </div>
   );
 };
-
 export default HeroSliderEight;
