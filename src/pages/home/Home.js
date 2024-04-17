@@ -3,7 +3,6 @@ import SEO from "../../components/seo";
 import LayoutOne from "../../layouts/LayoutOne";
 import HeroSliderEight from "../../wrappers/hero-slider/HeroSliderEight";
 import FeatureIconThree from "../../wrappers/feature-icon/FeatureIconThree";
-import TabProductFive from "../../wrappers/product/TabProductFive";
 
 const Home = () => {
   return (
@@ -16,15 +15,7 @@ const Home = () => {
         headerContainerClass="container-fluid"
         headerPaddingClass="header-padding-2"
       >
-        {/* hero slider */}
         <HeroSliderEight />
-        {/* tab product */}
-        {/* <TabProductFive
-          spaceTopClass="pt-95"
-          spaceBottomClass="pb-70"
-          category="cosmetics"
-        /> */}
-        {/* feature icon */}
         <FeatureIconThree
           spaceBottomClass="pb-70"
           featureShapeClass="support-shape-3"
@@ -33,5 +24,4 @@ const Home = () => {
     </Fragment>
   );
 };
-
 export default Home;

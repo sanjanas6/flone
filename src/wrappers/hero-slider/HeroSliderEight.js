@@ -1,4 +1,3 @@
-
 import { EffectFade } from 'swiper';
 import Swiper, { SwiperSlide } from "../../components/swiper";
 import HeroSliderEightSingle from "../../components/hero-slider/HeroSliderEightSingle.js";
@@ -30,7 +29,7 @@ const HeroSliderEight = () => {
               </SwiperSlide>
             ))}
           </Swiper>
-        )}
+        )
       </div>
     </div>
   );
