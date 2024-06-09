@@ -18,14 +18,14 @@ const HeroSliderEightSingle = ({ data }) => {
                 className="animated"
                 dangerouslySetInnerHTML={{ __html: data.subtitle }}
               />
-              {/* <div className="slider-btn btn-hover"> */}
-                {/* <Link
+              <div className="slider-btn btn-hover">
+                <Link
                   className="animated"
                   to={ data.url}
                 >
                   SHOP NOW
-                </Link> */}
-              {/* </div> */}
+                </Link>
+              </div>
             </div>
           </div>
         </div>
