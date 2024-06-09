@@ -25,11 +25,11 @@ const FooterOne = ({
             }`}
           >
             {/* footer copyright */}
-            <FooterCopyright
-              // footerLogo="/assets/img/logo/logo.png"
+            {/* <FooterCopyright
+              footerLogo="/assets/img/logo/logo.png"
               spaceBottomClass="mb-30"
               style={{width:"50px"}}
-            />
+            /> */}
           </div>
           <div
             className={`${
@@ -50,11 +50,11 @@ const FooterOne = ({
                       Contact
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link to={ "#/"}>
                       Orders tracking
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -86,9 +86,9 @@ const FooterOne = ({
                       Shop
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link to={ "#/"}>FAQs</Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>

@@ -60,11 +60,11 @@ const IconGroup = ({ iconWhiteClass }) => {
                 Register
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link to={ "/my-account"}>
                 My Account
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link to="#" onClick={handleLogoutClick}>
                 Logout

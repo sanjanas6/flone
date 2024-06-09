@@ -36,15 +36,6 @@ const ProductGridListSingle = ({
                 src={ product.image[0]}
                 alt=""
               />
-              {/* {product.image.length > 1 ? (
-                <img
-                  className="hover-img"
-                  src={ product.image[1]}
-                  alt=""
-                />
-              ) : (
-                ""
-              )} */}
             </Link>
             {product.discount || product.new ? (
               <div className="product-img-badges">
@@ -217,7 +208,6 @@ const ProductGridListSingle = ({
                 ) : (
                   ""
                 )}
-
                 <div className="shop-list-actions d-flex align-items-center">
                   <div className="shop-list-btn btn-hover">
                     {product.affiliateLink ? (
@@ -264,7 +254,6 @@ const ProductGridListSingle = ({
                       </button>
                     )}
                   </div>
-
                   <div className="shop-list-wishlist ml-10">
                     <button
                       className={wishlistItem !== undefined ? "active" : ""}
@@ -313,7 +302,6 @@ const ProductGridListSingle = ({
     </Fragment>
   );
 };
-
 ProductGridListSingle.propTypes = {
   cartItem: PropTypes.shape({}),
   compareItem: PropTypes.shape({}),
@@ -322,5 +310,4 @@ ProductGridListSingle.propTypes = {
   spaceBottomClass: PropTypes.string,
   wishlistItem: PropTypes.shape({})
 };
-
 export default ProductGridListSingle;

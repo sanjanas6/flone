@@ -9,11 +9,13 @@ import { addToCart, decreaseQuantity, deleteFromCart, deleteAllFromCart } from "
 import { cartItemStock } from "../../helpers/product";
 
 const Cart = () => {
+
   let cartTotalPrice = 0;
   const [quantityCount] = useState(1);
   const dispatch = useDispatch();
   const currency = useSelector((state) => state.currency);
   const { cartItems } = useSelector((state) => state.cart);
+
   return (
     <Fragment>
       <SEO
@@ -58,7 +60,6 @@ const Cart = () => {
                             const finalDiscountedPrice = (
                               discountedPrice * currency.currencyRate
                             ).toFixed(2);
-
                             discountedPrice != null
                               ? (cartTotalPrice +=
                                   finalDiscountedPrice * cartItem.quantity)
@@ -83,11 +84,9 @@ const Cart = () => {
                                     />
                                   </Link>
                                 </td>
-
                                 <td className="product-name">
                                   <Link
-                                    to={
-                                      
+                                    to={ 
                                       "/product/" +
                                       cartItem.id
                                     }
@@ -95,7 +94,6 @@ const Cart = () => {
                                     {cartItem.name}
                                   </Link>
                                  </td>
-
                                 <td className="product-price-cart">
                                   {discountedPrice !== null ? (
                                     <Fragment>
@@ -265,10 +263,8 @@ const Cart = () => {
                   </div>
                 </div>
               </div>
-            )}
-            
+            )}  
           </div>
-          
         </div>
       </LayoutOne>
     </Fragment>

@@ -31,8 +31,7 @@ const Contact = () => {
                       <i className="fa fa-phone" />
                     </div>
                     <div className="contact-info-dec">
-                      <p>+012 345 678 102</p>
-                      <p>+012 345 678 102</p>
+                      {/* <p>+012 345 678 102</p> */}
                     </div>
                   </div>
                   <div className="single-contact-info">
@@ -42,12 +41,12 @@ const Contact = () => {
                     <div className="contact-info-dec">
                       <p>
                         <a href="mailto:yourname@email.com">
-                          yourname@email.com
+                          contact@Fascinatinglydark.in
                         </a>
                       </p>
                       <p>
-                        <a href="https://yourwebsitename.com">
-                          yourwebsitename.com
+                        <a href="https://fascinatinglydark.in">
+                          Fascinatinglydark.in
                         </a>
                       </p>
                     </div>
@@ -57,11 +56,11 @@ const Contact = () => {
                       <i className="fa fa-map-marker" />
                     </div>
                     <div className="contact-info-dec">
-                      <p>Address goes here, </p>
-                      <p>street, Crossroad 123.</p>
+                      <p>Indore, M.P </p>
+                      {/* <p>street, Crossroad 123.</p> */}
                     </div>
                   </div>
-                  <div className="contact-social text-center">
+                  {/* <div className="contact-social text-center">
                     <h3>Follow Us</h3>
                     <ul>
                       <li>
@@ -90,7 +89,7 @@ const Contact = () => {
                         </a>
                       </li>
                     </ul>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className="col-12 col-lg-8 col-md-7">
@@ -106,13 +105,13 @@ const Contact = () => {
                       <div className="col-lg-6">
                         <input name="email" placeholder="Email*" type="email" />
                       </div>
-                      <div className="col-lg-12">
+                      {/* <div className="col-lg-12">
                         <input
                           name="subject"
                           placeholder="Subject*"
                           type="text"
                         />
-                      </div>
+                      </div> */}
                       <div className="col-lg-12">
                         <textarea
                           name="message"

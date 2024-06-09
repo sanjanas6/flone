@@ -16,7 +16,7 @@ const LoginRegister = () => {
     e.preventDefault(); 
 
     try {
-        const response = await axios.post(`${process.env.BACKEND_URL}/auth/login`, {
+        const response = await axios.post(`http://localhost:8080/api/v1/auth/login`, {
             phone: phone,
             password: password
         });

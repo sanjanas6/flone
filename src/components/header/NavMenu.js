@@ -26,7 +26,7 @@ const NavMenu = ({ menuWhiteClass, sidebarMenu }) => {
               {t("Shop")}
               </Link>
            </li>
-          <li>
+          {/* <li>
             <Link to={ "/"}>
               {t("Pages")}
               {sidebarMenu ? (
@@ -49,7 +49,7 @@ const NavMenu = ({ menuWhiteClass, sidebarMenu }) => {
                 </Link>
               </li>
              </ul>
-          </li> 
+          </li>  */}
           <li>
             <Link to={ "/about"}>
               {t("About-us")}
